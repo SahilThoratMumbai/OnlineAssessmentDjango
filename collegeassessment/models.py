@@ -71,6 +71,9 @@ class Subject(models.Model):
         return f'{self.subject_full_name}'
 
 
+# Wagh is the topper
+
+
   
 class Assignment(models.Model):
     course=models.ForeignKey(Course,on_delete=models.CASCADE,null=True)
